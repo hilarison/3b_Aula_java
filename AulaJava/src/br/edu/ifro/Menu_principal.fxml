@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="534.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.Menu_principalController">
+    <children>
+      <Pane layoutX="-78.0" layoutY="-38.0" prefHeight="608.0" prefWidth="974.0">
+         <children>
+            <Button layoutX="250.0" layoutY="158.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="167.0" text="Caixa" />
+            <Button layoutX="695.0" layoutY="158.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="167.0" text="Cadastro" />
+            <Button layoutX="248.0" layoutY="346.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="167.0" text="Relatorisos" />
+            <Button layoutX="480.0" layoutY="158.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="167.0" text="Vendas" />
+            <Button layoutX="699.0" layoutY="343.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="167.0" text="Button" />
+            <Button layoutX="476.0" layoutY="343.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="167.0" text="Estoque" />
+            <ComboBox layoutX="322.0" layoutY="100.0" prefHeight="25.0" prefWidth="509.0" promptText="pequisa" />
+            <TitledPane animated="false" layoutX="92.0" layoutY="226.0" prefHeight="312.0" prefWidth="120.0" text="Arquivos ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="97.0" />
+              </content>
+            </TitledPane>
+            <Text layoutX="101.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grupo focus     Focussoft1.0@gmail.com" wrappingWidth="298.544921875" />
+            <Text layoutX="831.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20/10/18   15:40:05" wrappingWidth="128.13671875" />
+            <MenuBar layoutX="78.0" layoutY="39.0" prefHeight="25.0" prefWidth="896.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Text layoutX="93.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GrupoFocus" wrappingWidth="88.13671875" />
+            <ImageView fitHeight="114.0" fitWidth="152.0" layoutX="85.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/7246078c917f750692976bc09a23ea7a.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
